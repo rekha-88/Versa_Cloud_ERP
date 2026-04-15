@@ -1,6 +1,8 @@
 # Versa Cloud ERP Automation Framework
-## Project overview
+
+## Project Overview
 This project is an end-to-end automation framework developed for the Versa Cloud ERP application.
+
 It automates business workflows including:
 - Login functionality
 - Sales order creation
@@ -8,11 +10,12 @@ It automates business workflows including:
 - Shipment process
 
 ## Tech Stack
-  - Java
-  - Selenium WebDriver
-  - Cucumber (BDD)
-  - TestNG
-  - Maven
+- Java
+- Selenium WebDriver
+- Cucumber (BDD)
+- TestNG
+- Maven
+
 ## Framework Design
 The framework follows the Page Object Model (POM) design pattern:
 - Pages → Contains all page classes
@@ -21,11 +24,12 @@ The framework follows the Page Object Model (POM) design pattern:
 - Hooks → Setup and teardown
 - LibraryFiles → Utility and DriverFactory
 
-  ## Features Implemented
+## Features Implemented
 - Explicit waits for dynamic elements
 - Screenshot capture on test failure
 - Reusable methods and clean structure
 - End-to-end workflow automation
 
-  ## Screenshot Handling
-Screenshots are captured automatically on test failure
+## Screenshot Handling
+Screenshots are captured automatically on test failure and stored in:
+./ScreenShots/
